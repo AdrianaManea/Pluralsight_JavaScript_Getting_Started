@@ -16,4 +16,4 @@
 ## Learn how to:
 
 - develop software in JavaScript
-- by following JavaScript: Getting Started on [Pluralsight](https://app.pluralsight.com/course-player?clipId=ff3a3535-3e17-4784-9a64-58d4bcc7fce8)
+- by following JavaScript: Getting Started from [Pluralsight](https://app.pluralsight.com/course-player?clipId=ff3a3535-3e17-4784-9a64-58d4bcc7fce8)

@@ -42,9 +42,9 @@ Programming language of the web.
 
 ## Conclusion:
 
-JS is a multiplatform language
-It will run in any moder browser
-It can be used to create Native Apps on Smarphones and Tablets
-It can create Desktop Software for Mac and Windows computers
-And it can be run on any backEnd Server as well
-No matter where you want your Application to run you can code it in JS
+- JS is a multiplatform language
+- It will run in any moder browser
+- It can be used to create Native Apps on Smarphones and Tablets
+- It can create Desktop Software for Mac and Windows computers
+- And it can be run on any backEnd Server as well
+- No matter where you want your Application to run you can code it in JS
