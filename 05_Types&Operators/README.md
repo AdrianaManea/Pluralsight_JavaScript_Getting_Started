@@ -10,16 +10,17 @@
 
 ## Converting between Types
 
-- sometimes we have a number and we want to treat it as a string
-- or sometimes we have a string which could be something entered by a user or something downloaded of the internet and we want to convert that into numbers
-- variable.toString()
-- Number.parseFloat("123")
-- Nan - When parsing a string we have to make sure there is no letter in it specially at the beginning. As soon as it runs into a character that isn't part of of a number it starts parcing and it's going to through an error. (Number.parseFloat("A123"))
+- sometimes we have a number and we want to treat it as a string - **variable.toString()**
+- or sometimes we have a string which could be something entered by a user or something downloaded of the internet and we want to convert that into numbers - **Number.parseFloat("123")**
+- Nan - When parsing a string we have to make sure there is no letter in it specially at the beginning. As soon as it runs into a character that isn't part of a number it starts parcing and it's going to through an error - **(Number.parseFloat("A123"))**
 
 ## Booleans
 
 - true
 - false
+
+- let saved = true;
+- saved = !saved!
 
 ## Null and Undefined
 
@@ -38,10 +39,10 @@
 - showMessage(saved);
 - console.log(saved);
 
-- Now it may be that 'saved' does get initialized for ex. like the value 10 but then later in our code, after we run some processing or some algorithm we might want to whipe out the value that stored in 'saved'.
-- JS will set values to undefined when they're not initializes.
-- But a programmer will set a value to null when they want to clear out that value. This is just **Best practice**; So we can differentiate
-  between what JS is doing with undefined and what developers are dong with null.
+- Now it may be that 'saved' does get initialized for ex. like the value 10 but then later in our code, after we run some processing or some algorithm we might want to wipe out the value that stored in 'saved'.
+- **JS will set values to undefined** when they're not initializes.
+- **But a programmer will set a value to null** when they want to clear out that value. This is just **Best practice**; So we can differentiate
+  between what JS is doing with undefined and what developers are doing with null.
 
 ## Objects and Symbols
 
@@ -49,7 +50,7 @@
 
 - let person = { firstName: "John", lastName: "Doe"};
 - showMessage(person.firstName);
-- The dot operator takes an object and pulls up one of the properties of the name, in this case firstName.
+- The dot operator takes an object and pulls up one of the properties of the person, in this case firstName.
 - Another very useful feature of Objects is that we can have methods where a property like firstName in our case holds a single value.
 - A method can actually run it's own block of code.
 
