@@ -37,7 +37,8 @@
 - In this way the code block of the function can work with our data
 - Very useful to be able to pass information into a function. That way the function could work with whatever information data you send it
 
-- **Example 1**
+**Example 1**
+
 - _function showMessage(message) { console.log(message); }_
   - function parameter (message)
   - **you can think of this parameter as a variable. Whatever information we pass to this function will be stored in this parameter.**
@@ -51,7 +52,8 @@
 
   - **An argument is an actual value that we send to a function - ex: ('First Message', 'Second Message')**
 
-- **Example 2**
+**Example 2**
+
 - _let myFunction = function loggingFunction(message, firstName) {_
 - _console.log(message);_
 - _console.log(firstName);_
